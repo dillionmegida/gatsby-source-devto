@@ -64,9 +64,11 @@ This plugin is open for contributions. There's no guideline yet, but acceptable 
 
 Single post page have not been implemented yet. All "All Posts" page have been implemented. I do not think there is need for it, but if you feel there is a perfect workaround for it, kindly create a feature request or pull request on it.
 
+<!--
 ## License
 
 This plugin is under the MIT License
+-->
 
 ## Author
 
