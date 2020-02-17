@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-source-devto",
+  "version": "1.0.0",
+  "description": "Source plugin for sourcing data from Dev.to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillionmegida/gatsby-source-devto.git"
+  },
+  "keywords": [
+    "dev.to",
+    "gatsby-plugin",
+    "gatsby"
+  ],
+  "author": "Dillion Megida <dillionmegida@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dillionmegida/gatsby-source-devto/issues"
+  },
+  "homepage": "https://github.com/dillionmegida/gatsby-source-devto#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
