@@ -42,6 +42,8 @@ At build time, the total posts in your Dev profile are fetched with the DEV api 
 }
 ```
 
+<!--
+
 ## Gatsby Starter
 
 If you're just starting out with gatsby and you want to use this plugin, you could create a gatsby site with the gatsby starter I created for this - [gatsby-starter-devto]().
@@ -52,6 +54,7 @@ cd project-folder
 ```
 
 Change the username in the gatsby-config.js file to your own username and continue configuring the website as you desire.
+-->
 
 ## Contributions
 
