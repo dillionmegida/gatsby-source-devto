@@ -1,13 +1,20 @@
 const _ = require('lodash');
 const crypto = require('crypto');
-const { getPosts, getPost } = require('./devto');
+const { getPosts } = require('./devto');
 const normalize = require('./normalize');
 
 async function createPostNode(datum) {
 
+    /*
+        get single posts cannot be implemented
+        at the moment. Please read more on it in
+        ../devto.js
+        
     let post = await getPost(datum.id);
     const { data: postData } = post;
     const { body_html, body_markdown } = postData;
+
+    */
 
     return {
         username: datum.user.username,
@@ -28,9 +35,12 @@ async function createPostNode(datum) {
             mediaType: 'text/html'
         },
         children: [],
-        preview: datum.url,
+        preview: datum.url
+        /* When getPost is implemeted,
+        these two properties can be added.
         html: body_html,
         markdown: body_markdown
+        */
     }
 }
 
@@ -70,5 +80,5 @@ exports.sourceNodes = async ({actions, store, cache, createNodeId }, options) =>
             })
         )
     })
-    .catch(err => console.log(`Could not fetch data, ${err}`))
+    .catch(err => console.log(`Could not fetch DEV data, ${err}`))
 }
