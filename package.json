@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-devto",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Source plugin for sourcing data from Dev.to",
   "main": "index.js",
   "scripts": {
